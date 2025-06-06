@@ -8,17 +8,17 @@ import { textVariant } from "../utils/motion";
 const codingLinks = [
   {
     name: "LeetCode",
-    url: "https://leetcode.com/your-username/",
+    url: "https://leetcode.com/AgraAyuSan",
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
   },
   {
     name: "GitHub",
-    url: "https://github.com/your-username",
+    url: "https://github.com/AyushA9rawal",
     logo: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/your-username",
+    url: "https://linkedin.com/in/ayushagrawal7249",
     logo: "https://cdn-icons-png.flaticon.com/512/174/174857.png"
   }
 ];
