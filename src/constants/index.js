@@ -16,10 +16,10 @@ import {
   figma,
   jetatech,
   pcsb,
-  
+  converso,
+  cognify,
   volcntrl,
   prodstore,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -146,6 +146,54 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Converso",
+    description:
+      "A full stack Teaching SaaS application that allows creation of voice companions for students",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vapi api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: converso,
+    source_code_link: "https://github.com/AyushA9rawal/Converso",
+    live_link: "https://converso-eta.vercel.app",
+  },
+  {
+    name: "Cognify",
+    description:
+      "An advanced AI-powered tool to automate the Mini Mental State Examination (M.M.S.E), designed to assist in the early detection of dementia and cognitive impairments",
+    tags: [
+      {
+        name: "nlp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gemini api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mern stack",
+        color: "red-text-gradient",
+      },
+    ],
+    image: cognify,
+    source_code_link: "https://github.com/AyushA9rawal/Cognify",
+    live_link: "https://cognify-ivory.vercel.app", // TODO: Replace with actual live URL
+  },
+  {
     name: "Hands Up-Down",
     description:
       "Control your PC Volume with the help of finger gestures(basically) detecting the distance between two fingers and adjusting the volume accordingly",
@@ -165,28 +213,29 @@ const projects = [
     ],
     image: volcntrl,
     source_code_link: "https://github.com/AyushA9rawal/Volume_Control_OpenCV",
+    // live_link: "", // TODO: Replace with actual live URL
   },
-  {
-    name: "Product Store",
-    description:
-      "A CRUD application that allows users to manage a product store, including adding, updating, and deleting products, with a user-friendly interface and responsive design.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: prodstore,
-    source_code_link: "https://github.com/AyushA9rawal/Product-Store",
-  },
+  // {
+  //   name: "Product Store",
+  //   description:
+  //     "A CRUD application that allows users to manage a product store, including adding, updating, and deleting products, with a user-friendly interface and responsive design.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: prodstore,
+  //   source_code_link: "https://github.com/AyushA9rawal/Product-Store",
+  // },
   
 ];
 

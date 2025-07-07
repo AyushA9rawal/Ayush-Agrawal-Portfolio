@@ -28,6 +28,8 @@ import volcntrl from "./volcntrl.png";
 import prodstore from "./prodstore.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import converso from "./converso.png";
+import cognify from "./cognify.png";
 
 export {
   logo,
@@ -56,4 +58,6 @@ export {
   volcntrl,
   jobit,
   tripguide,
+  cognify,
+  converso,
 };
